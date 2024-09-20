@@ -6,5 +6,6 @@ cd ~/MagicMirror && npm run install-mm
 cp ~/MagicMirror/config/config.js.sample ~/MagicMirror/config/config.js
 cd ~/MagicMirror && npm run start
 
-
+python3 -m pip install --upgrade mmpm
+echo 'export PATH="$PATH:$HOME/.local/bin"' >> ~/.bashrc && source ~/.bashrc
  
